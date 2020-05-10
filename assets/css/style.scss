@@ -107,6 +107,7 @@ table {
   width: 100%;
   font-family: 'Verdana', serif;
   font-size: 20px;
+  color: #99AAB5;
   line-height: 1.4em;
   font-weight: 500;
   background-color: transparent;
@@ -130,7 +131,7 @@ td {
   vertical-align: center;
 }
 tr:hover {
-  background-color: white;
+  background-color: pink;
   font-weight: 200;
 }
 table.top {
