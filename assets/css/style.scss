@@ -47,21 +47,21 @@ body {
   font-size: 20px;
   line-height: 1.4em;
   font-weight: 500;
-  color: black;
+  color: #99AAB5;
 }
 p {
   font-family: 'Verdana', serif;
   font-size: 20px;
   line-height: 1.4em;
   font-weight: 500;
-  color: black;
+  color: #99AAB5;
 }
 pre {
   font-family: 'Verdana', serif;
   font-size: 20px;
   line-height: 1.4em;
   font-weight: 500;
-  color: black;
+  color: #99AAB5;
 }
 p.foot {
   font-family: 'Verdana', serif;
@@ -87,21 +87,21 @@ p.caption-position {
 }
 .rate:hover {
   font-weight: 500;
-  color: black;
+  color: #99AAB5;
 }
 h1 {
   font-family: 'Verdana', serif;
   font-size: 25px;
   font-weight: 500;
   line-height: 1.4em;
-  color: black;
+  color: #99AAB5;
 }
 h2, h3, h4, h5, h6 {
   font-family: 'Verdana';
   font-size: 20px;
   font-weight: 900;
   line-height: 1.4em;
-  color: black;
+  color: #99AAB5;
 }
 table {
   width: 100%;
@@ -115,7 +115,7 @@ table {
 th, td {
   padding: 15px;
   text-align: left;
-  border-bottom: 1px solid black;
+  border-bottom: 1px solid #99AAB5;
 }
 th {
   font-family: 'Verdana', serif;
@@ -145,7 +145,7 @@ table.top {
 table.top th, td {
   padding: 15px;
   text-align: left;
-  border-bottom: 1px solid black;
+  border-bottom: 1px solid #99AAB5;
 }
 table.top td {
   font-weight: 500;
@@ -158,7 +158,7 @@ table.top tr:hover {
 }
 .toptable-meta {
   font-weight: 500;
-  color: #4e80d8;
+  color: #99AAB5;
 }
 .highlighter-rouge {
   font-family: 'Verdana';
@@ -166,7 +166,7 @@ table.top tr:hover {
   line-height: 1.4em;
   font-weight: 500;
   color: black;
-  border: solid 1px black;
+  border: solid 1px #99AAB5;
   background-color: grey;
   -moz-border-radius: 5px;
   -webkit-border-radius: 5px;
@@ -198,19 +198,16 @@ li {
   font-size: 20px;
   line-height: 1.4em;
   font-weight: 500;
-  color: black;
+  color: #99AAB5;
 }
 ul {
   font-family: 'Verdana';
   font-size: 20px;
   line-height: 1.4em;
   font-weight: 500;
-  color: black;
+  color: #99AAB5;
 }
-.disqus_thread {
-  -webkit-filter: grayscale(100%);
-  filter: grayscale(100%);
-}
+
 .container {
   width: 50px;
 }
