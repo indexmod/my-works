@@ -1,0 +1,26 @@
+<table class="top" style="width:100%">
+<tr>
+    <td>Название: <span class="toptable-meta">{{page.title}}</span></td>
+    </tr>
+    <tr>
+    <td>Автор: <span class="toptable-meta">{{page.artist}}</span></td>
+    </tr>
+    <tr>
+    <td>Год: <span class="toptable-meta">{{page.birth}}</span></td>
+    </tr>
+  <tr>
+    <td>Размер: <span class="toptable-meta">{{ page.size }}</span></td>
+  </tr>
+  <tr>
+    <td>Длительность: <span class="toptable-meta">{{ page.duration-hours}}:{{ page.duration-minutes}}:{{ page.duration-seconds }}</span></td>
+  </tr>
+  <tr>
+    <td>В секундах: <span class="toptable-meta">{% include total-seconds.html %}</span></td>
+  </tr>
+    <tr>
+    <td>Цена за секунду: <span class="toptable-meta">{{ page.price-per-second }} руб.</span></td>
+  </tr>
+  <tr>
+    <td>Цена: <span class="toptable-meta">{% include total-price-seconds.html %} руб.</span></td>
+  </tr>
+</table>

@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<head>
+{% include meta.html %}
+{% include favicon.html %}
+</head>
+<body>
+  <main class="grid">
+  {% assign mypages = site.html_pages | sort: "order" %} {% for page in mypages %}
+  {% unless page.exclude %}
+   <a href="{{page.url|absolute_url}}">
+               <video id="video-cover" width="100%" autoplay muted loop>
+                   <source src="{{page.video}}" type="video/mp4">
+                   <source src="{{page.video}}" type="video/ogg">
+                     Your browser does not support HTML5 video.
+               </video></a>
+   {% endunless %}
+   {% endfor %}
+ </main>
+{% include memo.html %}
+{% include copyright.html %}
+</body>
+</html>

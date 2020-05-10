@@ -1,0 +1,6 @@
+{% assign hours-in-seconds = page.duration-hours |  times: 3600 %}
+{% assign minutes-in-seconds = page.duration-munutes |  times: 60 %}
+{% assign total-seconds = hours-in-seconds |  plus: minutes-in-seconds  |  plus: page.duration-seconds %}
+
+
+{{ total-seconds | round: 0 }}

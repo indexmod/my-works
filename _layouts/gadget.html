@@ -1,0 +1,11 @@
+<!DOCTYPE html>
+<head>
+{% include meta.html %}
+{% include favicon.html %}
+</head>
+<body>
+<div id="gadget">
+<img src="{{ site.url }}/images/{{ page.permalink }}.png" alt="Гаджет"/></div>
+<h1>{{ page.title }}</h1>
+{{ content }}
+{% include copyright.html %}
