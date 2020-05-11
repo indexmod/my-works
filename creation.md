@@ -10,6 +10,6 @@ duration-hours: 0
 duration-minutes: 20
 duration-seconds: 5
 price-per-second: 1500
-sourceurl: https://github.com/indexmod/my-works/blob/master/my-secret.gif
-video: https://github.com/indexmod/my-works/blob/master/my-secret.gif
+sourceurl: {{site.url}}/my-secret.gif
+video: {{site.url}}my-secret.gif
 ---
