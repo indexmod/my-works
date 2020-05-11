@@ -10,8 +10,8 @@ duration-hours: 0
 duration-minutes: 20
 duration-seconds: 5
 price-per-second: 2000
-sourceurl: /my-secret.gif
-video: /my-secret.gif
+sourceurl: /My-secret-2017.mp4
+video: /My-secret-2017.mp4
 ---
 
 Тест
