@@ -10,6 +10,6 @@ duration-hours: 0
 duration-minutes: 20
 duration-seconds: 5
 price-per-second: 2000
-sourceurl: {{site.url}}/my-secret.gif
-video: {{site.url}}my-secret.gif
+sourceurl: {{siteurl}}/my-secret.gif
+video: {{siteurl}}my-secret.gif
 ---
