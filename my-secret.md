@@ -1,6 +1,6 @@
 ---
 title: Мой секрет
-permalink: my-secret
+permalink: secret
 layout: default
 artist: Андрей Дейниченко
 city: Москва
@@ -10,8 +10,8 @@ duration-hours: 0
 duration-minutes: 20
 duration-seconds: 5
 price-per-second: 2000
-sourceurl: {{siteurl}}/my-secret.gif
-video: {{siteurl}}my-secret.gif
+sourceurl: /my-secret.gif
+video: /my-secret.gif
 ---
 
 Тест
