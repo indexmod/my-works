@@ -6,7 +6,7 @@
   font-size: 20px;
   font-weight: 500;
   line-height: 1.4em;
-  color: black;
+  color: #99AAB5;
 }
 .rates-top {
   font-family: 'Verdana';
@@ -27,7 +27,7 @@
   font-size: 20px;
   line-height: 1.4em;
   font-weight: 500;
-  color: black;
+  color: #99AAB5;
 }
 .intro {
   font-family: 'Verdana';
@@ -40,28 +40,28 @@ body {
   max-width: 800px;
   margin: auto;
   padding: 20px;
-  background: Gainsboro;
+  background: #23272A;
 }
 .date {
   font-family: 'Verdana', serif;
   font-size: 20px;
   line-height: 1.4em;
   font-weight: 500;
-  color: black;
+  color: #99AAB5;
 }
 p {
   font-family: 'Verdana', serif;
   font-size: 20px;
   line-height: 1.4em;
   font-weight: 500;
-  color: black;
+  color: #99AAB5;
 }
 pre {
   font-family: 'Verdana', serif;
   font-size: 20px;
   line-height: 1.4em;
   font-weight: 500;
-  color: black;
+  color: #99AAB5;
 }
 p.foot {
   font-family: 'Verdana', serif;
@@ -83,30 +83,31 @@ p.caption-position {
 }
 .rate {
   font-weight: 500;
-  color: rose;
+  color: pink;
 }
 .rate:hover {
   font-weight: 500;
-  color: black;
+  color: #99AAB5;
 }
 h1 {
   font-family: 'Verdana', serif;
   font-size: 25px;
   font-weight: 500;
   line-height: 1.4em;
-  color: black;
+  color: #99AAB5;
 }
 h2, h3, h4, h5, h6 {
   font-family: 'Verdana';
   font-size: 20px;
   font-weight: 900;
   line-height: 1.4em;
-  color: black;
+  color: #99AAB5;
 }
 table {
   width: 100%;
   font-family: 'Verdana', serif;
   font-size: 20px;
+  color: #99AAB5;
   line-height: 1.4em;
   font-weight: 500;
   background-color: transparent;
@@ -115,7 +116,7 @@ table {
 th, td {
   padding: 15px;
   text-align: left;
-  border-bottom: 1px solid black;
+  border-bottom: 1px solid #99AAB5;
 }
 th {
   font-family: 'Verdana', serif;
@@ -130,7 +131,7 @@ td {
   vertical-align: center;
 }
 tr:hover {
-  background-color: Gainsboro;
+  background-color: pink;
   font-weight: 200;
 }
 table.top {
@@ -145,7 +146,7 @@ table.top {
 table.top th, td {
   padding: 15px;
   text-align: left;
-  border-bottom: 1px solid black;
+  border-bottom: 1px solid #99AAB5;
 }
 table.top td {
   font-weight: 500;
@@ -153,43 +154,43 @@ table.top td {
   vertical-align: center;
 }
 table.top tr:hover {
-  background-color: Gainsboro;
+  background-color: white;
   font-weight: 500;
 }
 .toptable-meta {
   font-weight: 500;
-  color: #4e80d8;
+  color: #99AAB5;
 }
 .highlighter-rouge {
   font-family: 'Verdana';
   font-size: 20px;
   line-height: 1.4em;
   font-weight: 500;
-  color: black;
-  border: solid 1px black;
-  background-color: grey;
+  color: #99AAB5;
+  border: solid 1px #99AAB5;
+  background-color: white;
   -moz-border-radius: 5px;
   -webkit-border-radius: 5px;
   border-radius: 5px;
   padding: 9px 9px;
 }
 a:link {
-  color: #4e80d8;
+  color: white;
   text-decoration: none;
   font-weight: 500;
 }
 a:visited {
-  color: #4e80d8;
+  color: white;
   text-decoration: none;
   font-weight: 500;
 }
 a:hover {
-  color: #4e80d8;
+  color: white;
   text-decoration: underline;
   font-weight: 500;
 }
 a:active {
-  color: #4e80d8;
+  color: white;
   text-decoration: none;
   font-weight: 500;
 }
@@ -198,19 +199,16 @@ li {
   font-size: 20px;
   line-height: 1.4em;
   font-weight: 500;
-  color: black;
+  color: #99AAB5;
 }
 ul {
   font-family: 'Verdana';
   font-size: 20px;
   line-height: 1.4em;
   font-weight: 500;
-  color: black;
+  color: #99AAB5;
 }
-.disqus_thread {
-  -webkit-filter: grayscale(100%);
-  filter: grayscale(100%);
-}
+
 .container {
   width: 50px;
 }
