@@ -3,7 +3,7 @@ title: Камин (это пример)
 permalink: fire-place
 exclude: true
 layout: default
-artist: Не указан
+artist: militarys.tumblr.com/post/14049741080
 city: Не указан
 birth: 2000
 size: 1920 x 1080
