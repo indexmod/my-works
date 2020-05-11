@@ -13,5 +13,3 @@ price-per-second: 2000
 sourceurl: /My-secret-2017.mp4
 video: /My-secret-2017.mp4
 ---
-
-Тест
