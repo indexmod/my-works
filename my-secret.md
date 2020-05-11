@@ -1,5 +1,5 @@
 ---
-title: Сотворение
+title: Мой секрет
 permalink: my-secret
 layout: default
 artist: Андрей Дейниченко
@@ -13,3 +13,5 @@ price-per-second: 2000
 sourceurl: {{siteurl}}/my-secret.gif
 video: {{siteurl}}my-secret.gif
 ---
+
+Тест
