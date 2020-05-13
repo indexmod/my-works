@@ -10,6 +10,6 @@ duration-hours: 0
 duration-minutes: 0
 duration-seconds: 10
 price-per-second: 1
-video: /Clock.gif
-sourceurl: /Clock.gif
+video: /clo.m4v
+sourceurl: /clo.m4v
 ---
