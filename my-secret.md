@@ -9,7 +9,7 @@ size: 1920 x 1080
 duration-hours: 0
 duration-minutes: 20
 duration-seconds: 5
-price-per-second: 3000
+price-per-second: 5000
 sourceurl: /My-secret-2017.mp4
 video: /My-secret-2017.mp4
 ---
