@@ -88,14 +88,3 @@ body {
   margin: auto;
   z-index: 1;
 }
-
-.logo {
-  position: absolute;
-  font-size: 10em;
-  color: red;
-  top: 0;
-  left: 0;
-  right: 300;
-  bottom: 0;
-  z-index: -2;
-}
