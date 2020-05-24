@@ -10,6 +10,6 @@ duration-hours: 0
 duration-minutes: 0
 duration-seconds: 10
 price-per-second: 1
-video: /{{page.permalink}}.mp4
-sourceurl: /{{page.permalink}}.mp4
+video: clock.mp4
+sourceurl: clock.mp4
 ---

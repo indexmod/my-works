@@ -1,5 +1,5 @@
 ---
-title: Мой секрет
+title: Cекрет
 permalink: secret
 layout: default
 artist: Андрей Дейниченко
@@ -10,6 +10,6 @@ duration-hours: 0
 duration-minutes: 20
 duration-seconds: 5
 price-per-second: 5000
-sourceurl: /{{page.permalink}}.mp4
-video: /{{page.permalink}}.mp4
+sourceurl: secret.mp4
+video: secret.mp4
 ---
