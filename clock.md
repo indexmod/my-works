@@ -3,6 +3,7 @@ title: Clock
 permalink: clock
 layout: default
 artist: Anonim
+exclude: true
 city: Москва
 birth: 2020
 size: 1920 x 1080

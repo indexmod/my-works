@@ -2,6 +2,7 @@
 title: Cекрет
 permalink: secret
 layout: default
+exclude: true
 artist: Андрей Дейниченко
 city: Москва
 birth: 2017
