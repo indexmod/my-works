@@ -6,14 +6,14 @@ body {
   -webkit-box-pack: center;
           justify-content: center;
   height: 100vh;
-  background: black;
+  background: navy;
 }
 
 .clock {
   border-radius: 100%;
-  background: white;
+  background: #ffffff;
   font-family: "Montserrat";
-  border: 1px solid red;
+  border: 5px solid white;
   box-shadow: inset 2px 3px 8px 0 rgba(0, 0, 0, 0.1);
 }
 
