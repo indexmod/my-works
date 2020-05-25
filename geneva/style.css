@@ -91,10 +91,10 @@ body {
 
 .logo
  {
-   position: relative;
+   position: absolute;
    top: 50px;
    left: 50px;
    height: auto;
-   width: 25px;
+   width: 30px;
    z-index: 1;
  }
