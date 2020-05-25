@@ -89,15 +89,14 @@ body {
   z-index: 1;
 }
 
-.logo
- {
-   position: absolute;
-   top: 40;
-   left: 0;
-   right: 0;
-   bottom: 0;
-   height: auto;
-   width: 30px;
-   margin: auto;
-   z-index: 2;
- }
+.logo {
+  position: absolute;
+  top: 40;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  width: 30px;
+  height: 30px;
+  margin: auto;
+  z-index: 2;
+}
