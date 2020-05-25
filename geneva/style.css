@@ -95,8 +95,8 @@ body {
   left: 0;
   right: 0;
   bottom: 0;
-  width: 30px;
-  height: 30px;
+  width: 40px;
+  height: 40px;
   margin: auto;
-  z-index: 2;
+  z-index: 0;
 }
