@@ -6,7 +6,7 @@ body {
   -webkit-box-pack: center;
           justify-content: center;
   height: 100vh;
-  background: navy;
+  background: pink;
 }
 
 .clock {
@@ -58,14 +58,14 @@ body {
 .second {
   position: absolute;
   height: 90px;
-  width: 2px;
+  width: 4px;
   margin: auto;
   top: -26%;
   left: 0;
   bottom: 0;
   right: 0;
   border-radius: 4px;
-  background: #FF4B3E;
+  background: white;
   -webkit-transform-origin: bottom center;
           transform-origin: bottom center;
   -webkit-transform: rotate(180deg);
@@ -95,8 +95,8 @@ body {
   left: 0;
   right: 0;
   bottom: 0;
-  width: 200px;
-  height: 200px;
+  width: 500px;
+  height: 500px;
   margin: auto;
   z-index: 0;
 }
