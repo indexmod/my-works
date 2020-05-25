@@ -6,7 +6,7 @@ body {
   -webkit-box-pack: center;
           justify-content: center;
   height: 100vh;
-  background: navy;
+  background: white;
 }
 
 .clock {
@@ -35,7 +35,7 @@ body {
   left: 0;
   bottom: 0;
   right: 0;
-  background: black;
+  background: white;
   -webkit-transform-origin: bottom center;
           transform-origin: bottom center;
   -webkit-transform: rotate(0deg);
@@ -50,7 +50,7 @@ body {
   width: 4px;
   top: -38%;
   left: 0;
-  box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.4);
+  box-shadow: 0 0 0px 0 rgba(0, 0, 0, 0);
   -webkit-transform: rotate(90deg);
           transform: rotate(90deg);
 }
@@ -58,14 +58,14 @@ body {
 .second {
   position: absolute;
   height: 90px;
-  width: 2px;
+  width: 10px;
   margin: auto;
   top: -26%;
   left: 0;
   bottom: 0;
   right: 0;
   border-radius: 4px;
-  background: #FF4B3E;
+  background: pink;
   -webkit-transform-origin: bottom center;
           transform-origin: bottom center;
   -webkit-transform: rotate(180deg);
@@ -83,7 +83,7 @@ body {
   height: 12px;
   border-radius: 100px;
   background: white;
-  border: 2px solid #1b1b1b;
+  border: 2px solid pink;
   border-radius: 100px;
   margin: auto;
   z-index: 1;
@@ -95,8 +95,8 @@ body {
   left: 0;
   right: 0;
   bottom: 0;
-  width: 150px;
-  height: 150px;
+  width: 500px;
+  height: 500px;
   margin: auto;
   z-index: 0;
 }
