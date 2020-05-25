@@ -11,6 +11,6 @@ duration-hours: 0
 duration-minutes: 0
 duration-seconds: 0
 price-per-second: 0
-video: https://media.giphy.com/media/Y4sPlc0tG4lbvOD3Vn/giphy.mp4
-sourceurl: https://media.giphy.com/media/2dGZ5kHU4YXcc/giphy.mp4
+video: permalink.mp4
+sourceurl: permalink.mp4
 ---
