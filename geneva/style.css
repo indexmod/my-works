@@ -94,5 +94,7 @@ body {
    position:absolute;
    top: 25px;
    left: 25px;
+   height: auto;
+   width: 150px;
    z-index: 2;
  }
