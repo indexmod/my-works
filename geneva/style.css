@@ -92,9 +92,12 @@ body {
 .logo
  {
    position: absolute;
-   top: 50px;
-   left: 50px;
+   top: 40;
+   left: 0;
+   right: 0;
+   bottom: 0;
    height: auto;
    width: 30px;
-   z-index: 1;
+   margin: auto;
+   z-index: 2;
  }
