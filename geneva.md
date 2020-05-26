@@ -10,6 +10,6 @@ duration-hours: 24
 duration-minutes: 0
 duration-seconds: 0
 price-per-second: 1
-video: geneva-1.mp4
-sourceurl: geneva-1.mp4
+video: geneva.mp4
+sourceurl: geneva.mp4
 ---
