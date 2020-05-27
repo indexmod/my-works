@@ -6,14 +6,14 @@ body {
   -webkit-box-pack: center;
           justify-content: center;
   height: 100vh;
-  background: red;
+  background: white;
 }
 
 .clock {
   border-radius: 100%;
   background: #ffffff;
   font-family: "Montserrat";
-  border: 1px solid white;
+  border: 1px solid red;
   box-shadow: inset 2px 3px 8px 0 rgba(0, 0, 0, 0.1);
 }
 
@@ -35,7 +35,7 @@ body {
   left: 0;
   bottom: 0;
   right: 0;
-  background: black;
+  background: grey;
   -webkit-transform-origin: bottom center;
           transform-origin: bottom center;
   -webkit-transform: rotate(0deg);
@@ -58,14 +58,14 @@ body {
 .second {
   position: absolute;
   height: 90px;
-  width: 3px;
+  width: 2px;
   margin: auto;
   top: -26%;
   left: 0;
   bottom: 0;
   right: 0;
   border-radius: 4px;
-  background: pink;
+  background: red;
   -webkit-transform-origin: bottom center;
           transform-origin: bottom center;
   -webkit-transform: rotate(180deg);
@@ -79,11 +79,11 @@ body {
   left: 0;
   right: 0;
   bottom: 0;
-  width: 12px;
-  height: 12px;
+  width: 20px;
+  height: 20px;
   border-radius: 100px;
   background: white;
-  border: 2px solid #1b1b1b;
+  border: 1px solid white;
   border-radius: 100px;
   margin: auto;
   z-index: 1;
