@@ -271,7 +271,7 @@ div.row {}
 }
 #image-left-bottom {
   position: absolute;
-  width: 180px;
+  width: auto;
   z-index: -300000;
   bottom: 0px;
   left: 0px;
@@ -374,7 +374,7 @@ div.row {}
 .grid {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
-  grid-gap: 20px;
+  grid-gap: 2px;
   align-items: left;
 }
 .grid img {
@@ -382,8 +382,8 @@ div.row {}
   max-width: 100%;
 }
 img {
-  max-width: 95%;
-  min-width: 95%;
+  max-width: 99%;
+  min-width: 99%;
   height: auto;
   margin: 0em 0em 0em 0em;
 }
