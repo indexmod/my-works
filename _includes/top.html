@@ -1,154 +1,77 @@
 <!DOCTYPE html>
-
 <html>
 <head>
-  <title>
-  </title>
+	<title></title>
 </head>
-
 <body>
-  <div class="row">
-    <div class="column left">
-      <p>{% include toptable.html %}</p>
-    </div>
-
-
-    <div class="column right">
-      <p>{% include image.html %}</p>
-    </div>
-  </div>
-
-
-  <h2>Варианты инсталляций</h2>
-
-
-  <p>В таблице ниже приблизительные расчеты стоимости инсталляции проекции «{{ page.title }}» разных масштабов: комната, зал и фасад.</p>
-  <br>
-  <br>
-  <br>
-  <br>
-  <br>
-  <br>
-  <br>
-
-
-  <table>
-    <tr>
-
-      <td>
-        <div class="video-wrapper-left">
-          <div id="image-left-top"><img alt="image-left-top" src="{{%20site.url%20}}/identity/image-left-top.png">
-          </div>
-
-          <video autoplay="" id="left-video" loop=""><source src="{{page.video}}" type="video/mp4"> <source src="{{page.video}}" type="video/ogg"> Your browser does not support HTML5 video.</video>
-
-          <div id="image-left-bottom"><img alt="image-left-bottom" src="{{%20site.url%20}}/identity/image-left-bottom.jpg">
-          </div>
-        </div>
-      </td>
-
-      <td>
-        <div class="video-wrapper-middle">
-          <div id="image-middle-top"><img alt="image-middle-top" src="{{%20site.url%20}}/identity/image-middle-top.png">
-          </div>
-
-          <video autoplay="" id="middle-video-1" loop=""><source src="{{page.video}}" type="video/mp4"> <source src="{{page.video}}" type="video/ogg"> Your browser does not support HTML5 video.</video>
-          <video autoplay="" id="middle-video-2" loop=""><source src="{{page.video}}" type="video/mp4"> <source src="{{page.video}}" type="video/ogg"> Your browser does not support HTML5 video.</video>
-
-          <div id="image-middle-bottom"><img alt="image-middle-bottom" src="{{%20site.url%20}}/identity/image-middle-bottom.jpg">
-          </div>
-        </div>
-      </td>
-
-      <td>
-        <div class="video-wrapper-right">
-          <div id="image-right-top"><img alt="image-right-top" src="{{%20site.url%20}}/identity/image-right-top.png">
-          </div>
-
-          <video autoplay="" id="right-video" loop=""><source src="{{page.video}}" type="video/mp4"> <source src="{{page.video}}" type="video/ogg"> Your browser does not support HTML5 video.</video>
-
-          <div id="image-right-bottom"><img alt="image-right-bottom" src="{{%20site.url%20}}/identity/image-right-bottom.jpg">
-          </div>
-        </div>
-      </td>
-    </tr>
-
-
-    <tr>
-
-
-      <td>Комната</td>
-
-      <td>Зал</td>
-
-      <td>Фасад</td>
-    </tr>
-    <tr>
-
-
-
-      <td>
-        <a href="/casio-xj-ut311wn" target="_blank">Проектор Casio</a>
-      </td>
-
-      <td>
-        <a href="/casio-xj-ut311wn" target="_blank">2</a>
-      </td>
-
-      <td>
-        <a href="/casio-xj-ut311wn" target="_blank">3</a>
-      </td>
-    </tr>
-
-
-    <tr>
-
-      <td>
-        <a href="/asus-vivostick-pc-ts10" target="_blank">Носитель Asus</a>
-      </td>
-
-      <td>
-        <a href="/asus-vivostick-pc-ts10" target="_blank">2</a>
-      </td>
-
-      <td>
-        <a href="/asus-vivostick-pc-ts10" target="_blank">3</a>
-      </td>
-    </tr>
-
-
-    <tr>
-
-      <td>
-        Стена
-      </td>
-
-      <td>
-        <a href="/3m-vikuiti" target="_blank">Экран 3M</a>
-      </td>
-
-      <td>
-        Стена
-      </td>
-    </tr>
-
-
-
-    <tr>
-
-      <td>{% include total-price-seconds-1.html %} руб.</td>
-
-      <td>{% include total-price-seconds-2.html %} руб.</td>
-
-      <td>{% include total-price-seconds-3.html %} руб.</td>
-
-    </tr>
-  </table>
-  <br>
-
-
-  <p><a href="/index" target="_blank">На главную страницу</a>
-  </p>
-
+	{% include image.html %}<br>
+	{% include toptable.html %}
+	<h2>Варианты инсталляций</h2>
+	<p>В таблице приблизительные расчеты стоимости инсталляции «{{ page.title }}» в разных масштабах.</p><br>
+	<br>
+	<table>
+		<tr>
+			<td>
+				<div class="video-wrapper-left">
+					<div id="image-left-top"><img alt="image-left-top" src="{{%20site.url%20}}/identity/image-left-top.png"></div><video autoplay="" id="left-video" loop=""><source src="{{page.video}}" type="video/mp4"> <source src="{{page.video}}" type="video/ogg"> Your browser does not support HTML5 video.</video>
+					<div id="image-left-bottom"><img alt="image-left-bottom" src="{{%20site.url%20}}/identity/image-left-bottom.jpg"></div>
+				</div>
+			</td>
+		</tr>
+		<tr>
+			<td>Комната</td>
+		</tr>
+		<tr>
+			<td>
+				<a href="/casio-xj-ut311wn" target="_blank">Casio</a>
+			</td>
+		</tr>
+		<tr>
+			<td>
+				<a href="/asus-vivostick-pc-ts10" target="_blank">Asus</a>
+			</td>
+		</tr>
+		<tr>
+			<td>Стена</td>
+		</tr>
+		<tr>
+			<td>{% include total-price-seconds-1.html %} руб.</td>
+		</tr>
+		<tr>
+			<td>
+				<div class="video-wrapper-middle">
+					<div id="image-middle-top"><img alt="image-middle-top" src="{{%20site.url%20}}/identity/image-middle-top.png"></div><video autoplay="" id="middle-video-1" loop=""><source src="{{page.video}}" type="video/mp4"> <source src="{{page.video}}" type="video/ogg"> Your browser does not support HTML5 video.</video> <video autoplay="" id="middle-video-2" loop=""><source src="{{page.video}}" type="video/mp4"> <source src="{{page.video}}" type="video/ogg"> Your browser does not support HTML5 video.</video>
+					<div id="image-middle-bottom"><img alt="image-middle-bottom" src="{{%20site.url%20}}/identity/image-middle-bottom.jpg"></div>
+				</div>
+			</td>
+			<td>
+				<div class="video-wrapper-right">
+					<div id="image-right-top"><img alt="image-right-top" src="{{%20site.url%20}}/identity/image-right-top.png"></div><video autoplay="" id="right-video" loop=""><source src="{{page.video}}" type="video/mp4"> <source src="{{page.video}}" type="video/ogg"> Your browser does not support HTML5 video.</video>
+					<div id="image-right-bottom"><img alt="image-right-bottom" src="{{%20site.url%20}}/identity/image-right-bottom.jpg"></div>
+				</div>
+			</td>
+			<td>Зал</td>
+			<td>Фасад</td>
+			<td>
+				<a href="/casio-xj-ut311wn" target="_blank">Casio</a>
+			</td>
+			<td>
+				<a href="/casio-xj-ut311wn" target="_blank">Casio</a>
+			</td>
+			<td>
+				<a href="/asus-vivostick-pc-ts10" target="_blank">Asus</a>
+			</td>
+			<td>
+				<a href="/asus-vivostick-pc-ts10" target="_blank">Asus</a>
+			</td>
+			<td>
+				<a href="/3m-vikuiti" target="_blank">Экран 3M</a>
+			</td>
+			<td>Стена</td>
+			<td>{% include total-price-seconds-2.html %} руб.</td>
+			<td>{% include total-price-seconds-3.html %} руб.</td>
+		</tr>
+	</table><br>
+	<p><a href="/index" target="_blank">На главную страницу</a></p>
 </body>
 </html>
