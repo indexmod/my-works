@@ -3,17 +3,6 @@ body {
   height: 100vh;
 }
 
-.grid {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  grid-gap: 100px;
-  align-items: left;
-}
-.grid svg {
-  border: 0px;
-  max-width: 100%;
-}
-
 svg {
   max-width: 99%;
   min-width: 99%;
