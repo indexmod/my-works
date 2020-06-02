@@ -13,7 +13,7 @@ body {
   border-radius: 100%;
   background: #ffffff;
   font-family: "Montserrat";
-  border: 1px solid red;
+  border: 5px solid white;
   box-shadow: inset 2px 3px 8px 0 rgba(0, 0, 0, 0.1);
 }
 
@@ -35,7 +35,7 @@ body {
   left: 0;
   bottom: 0;
   right: 0;
-  background: grey;
+  background: black;
   -webkit-transform-origin: bottom center;
           transform-origin: bottom center;
   -webkit-transform: rotate(0deg);
@@ -65,7 +65,7 @@ body {
   bottom: 0;
   right: 0;
   border-radius: 4px;
-  background: red;
+  background: #FF4B3E;
   -webkit-transform-origin: bottom center;
           transform-origin: bottom center;
   -webkit-transform: rotate(180deg);
@@ -79,11 +79,11 @@ body {
   left: 0;
   right: 0;
   bottom: 0;
-  width: 20px;
-  height: 20px;
+  width: 12px;
+  height: 12px;
   border-radius: 100px;
   background: white;
-  border: 1px solid white;
+  border: 2px solid #1b1b1b;
   border-radius: 100px;
   margin: auto;
   z-index: 1;
@@ -95,8 +95,8 @@ body {
   left: 0;
   right: 0;
   bottom: 0;
-  width: 400px;
-  height: 400px;
+  width: 300px;
+  height: 300px;
   margin: auto;
   z-index: 0;
 }
