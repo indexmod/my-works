@@ -256,13 +256,14 @@ div.row {}
 .video-wrapper-left {
   perspective: 200px;
 }
+
 #left-video {
   position: absolute;
-  width: inherit;
+  width: 300px;
   bottom: 50px;
   left: 55px;
   transform: rotateX(0deg) rotateY(0deg) rotateZ(0deg);
-  filter: opacity(10%);
+  filter: opacity(90%);
 }
 #image-left-bottom {
   position: absolute;
