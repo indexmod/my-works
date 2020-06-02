@@ -247,41 +247,32 @@ div.row {}
 }
 #image-left-top {
   position: absolute;
-  width: 180px;
+  width: 400px;
   z-index: 300000;
   bottom: 0px;
   left: 0px;
-  -webkit-filter: grayscale(0%);
-  filter: grayscale(0%);
 }
-#image-left-top:hover {
-  -webkit-filter: grayscale(100%);
-  filter: grayscale(100%);
-}
+
 .video-wrapper-left {
   perspective: 200px;
 }
+
 #left-video {
   position: absolute;
-  width: 100px;
+  width: 300px;
   bottom: 50px;
   left: 55px;
   transform: rotateX(0deg) rotateY(0deg) rotateZ(0deg);
-  filter: opacity(50%);
+  filter: opacity(90%);
 }
 #image-left-bottom {
   position: absolute;
-  width: auto;
+  width: 400px;
   z-index: -300000;
   bottom: 0px;
   left: 0px;
-  -webkit-filter: grayscale(0%);
-  filter: grayscale(0%);
 }
-#image-left-bottom:hover {
-  -webkit-filter: grayscale(100%);
-  filter: grayscale(100%);
-}
+
 #image-middle-top {
   position: absolute;
   width: 180px;
