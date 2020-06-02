@@ -1,12 +1,12 @@
 body {
-  background: grey;
+  background: navy;
   height: 100vh;
 }
 
 .grid {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  grid-gap: 100px;
+  grid-gap: 200px;
   align-items: left;
 }
 .grid svg {
@@ -15,8 +15,8 @@ body {
 }
 
 svg {
-  max-width: 99%;
-  min-width: 99%;
+  max-width: 100%;
+  min-width: 80%;
   height: auto;
-  margin: 0em 0em 0em 0em;
+  margin: 1em 1em 1em 1em;
 }
