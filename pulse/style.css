@@ -1,0 +1,22 @@
+body {
+  background: black;
+  height: 100vh;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 20px;
+  align-items: left;
+}
+.grid svg {
+  border: 0px;
+  max-width: 100%;
+}
+
+svg {
+  max-width: 99%;
+  min-width: 99%;
+  height: auto;
+  margin: 0em 0em 0em 0em;
+}
