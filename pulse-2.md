@@ -1,7 +1,7 @@
 ---
 title: Pulse 2
 permalink: pulse-2
-layout: pulse
+layout: pulse-2
 artist: Andrei Dei
 city: Москва
 birth: 2016
