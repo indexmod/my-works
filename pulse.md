@@ -13,3 +13,5 @@ price-per-second: 0
 video: pulse.mp4
 sourceurl: pulse.mp4
 ---
+
+{% include pulse.html %}
